@@ -2,6 +2,7 @@
 @import './partials/variables';
 @import './partials/header';
 @import './partials/about';
+@import './partials/ticketInfo';
 
 // BASE STYLES
 .wrapper {
@@ -37,6 +38,6 @@ button {
     color: #fff;
     background-color: #9200FF;
     text-transform: uppercase;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-style: none;
 }

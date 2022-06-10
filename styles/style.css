@@ -344,7 +344,7 @@ header h2 {
   line-height: 29px;
 }
 .about .descriptionContainer button {
-  margin-top: 5%;
+  margin: 5% 0;
 }
 .about .descriptionContainer button:hover {
   background-color: #af47ff;
@@ -383,6 +383,45 @@ header h2 {
             order: -1;
   }
 }
+.ticketInformation {
+  background-color: #08080B;
+}
+.ticketInformation .ticketDetails {
+  min-height: 462px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ticketInformation .imgContainer img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  max-width: 317px;
+}
+.ticketInformation .ticketDetailsContianer {
+  width: 55%;
+}
+.ticketInformation .ticketDetailsContianer h2 {
+  font-family: "Iceberg", cursive;
+  text-transform: uppercase;
+  font-size: 2.6rem;
+  font-weight: normal;
+}
+.ticketInformation .ticketDetailsContianer p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 29px;
+}
+.ticketInformation .ticketDetailsContianer button {
+  margin: 2% 0;
+}
+
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
@@ -416,6 +455,6 @@ button {
   color: #fff;
   background-color: #9200FF;
   text-transform: uppercase;
-  padding: 15px 20px;
+  padding: 10px 20px;
   border-style: none;
 }
