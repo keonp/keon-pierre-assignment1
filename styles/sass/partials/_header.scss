@@ -23,12 +23,34 @@ header {
         }
     }
 
+    .headerContainer {
+        margin-top: 110px;
+        display: flex;
+    }
+
+    .headerTextContainer {
+        margin: 0 auto;
+    }
+
+    .iconContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .socialMediaIcons {
+        width: 25px;
+        height: 25px;
+        margin-bottom: 15px;
+    }
+
     h1 {
         font-family: $fontIceberg;
         text-transform: uppercase;
-        margin: 100px 0 10px;
+        margin-bottom: 10px;
         font-weight: normal;
         font-size: 80px;
+        line-height: 1.15;
 
         span {
             display: block;
@@ -49,6 +71,10 @@ header {
         nav {
             visibility: hidden;
             min-width: 420px;
+        }
+
+        .iconContainer {
+            display: none;
         }
     }
 }
