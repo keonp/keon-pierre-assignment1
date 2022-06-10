@@ -21,10 +21,22 @@ p {
 
 html {
     color: #fff;
-    font-size: 125%;
+    font-size: 125%; // browser default font size is 16px
 }
 
 img {
     max-width: 100%;
     display: block;
+}
+
+button {
+    font-family: $fontIceberg;
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 29px;
+    color: #fff;
+    background-color: #9200FF;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-style: none;
 }
