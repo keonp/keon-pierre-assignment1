@@ -2,7 +2,52 @@
     background-color: #3D0369;
     display: flex;
     flex-wrap: wrap;
-    div {
+
+    .aboutContainers {
         width: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+    .aboutContainers:not(.imgContainer) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgContainer img {
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .descriptionContainer {
+        // align-self: center;
+        // padding: 0 105px;
+        // padding: 0 7%;
+        max-width: 530px;
+        h2 {
+            font-family: $fontIceberg;
+            text-transform: uppercase;
+            font-size: 52px;
+            font-weight: normal;
+        }
+        p {
+            font-family: $fontMontserrat;
+            font-size: 20px;
+            line-height: 29px;
+        }
+        button {
+            margin-top: 5%;
+        }
+        button:hover {
+            background-color: #af47ff;
+        }
+    }
+}
+
+@media (max-width: 755px) {
+    .about {
+        .aboutContainers {
+            width: 100%;
+        }
     }
 }
