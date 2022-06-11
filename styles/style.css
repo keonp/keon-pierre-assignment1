@@ -475,7 +475,7 @@ header h2 {
   text-decoration: none;
   display: block;
 }
-.ticketIcons h4 {
+.ticketIcons h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
@@ -483,6 +483,14 @@ header h2 {
   color: #FFF;
 }
 
+@media (max-width: 755px) {
+  .ticketIcons .ticketDetailIcons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;

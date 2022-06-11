@@ -21,7 +21,7 @@
         display: block;
     }
 
-    h4 {
+    h3 {
         font-family: $fontMontserrat;
         font-size: 1.5rem;
         font-weight: normal;
@@ -31,5 +31,11 @@
 }
 
 @media (max-width: 755px) {
-    
+    .ticketIcons {
+
+        .ticketDetailIcons {
+            flex-direction: column;
+        }
+        
+    }
 }
