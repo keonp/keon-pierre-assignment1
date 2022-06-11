@@ -538,6 +538,23 @@ header h2 {
   margin: 0 20px;
 }
 
+@media (max-width: 755px) {
+  .socialMedia .socialMediaContainer {
+    height: 500px;
+  }
+  .socialMedia ul li:last-child {
+    display: none;
+  }
+  .socialMedia ul {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .socialMedia li {
+    width: 48%;
+    margin: 0;
+  }
+}
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;

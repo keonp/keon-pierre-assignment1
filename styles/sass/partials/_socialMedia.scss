@@ -26,5 +26,27 @@
         width: calc((100% / 3) - 40px);
         margin: 0 20px;
     }
+}
 
+@media (max-width: 755px) {
+
+    .socialMedia {
+
+        .socialMediaContainer {
+            height: 500px;
+        }
+
+        ul li:last-child {
+            display: none;
+        }
+
+        ul {
+            justify-content: space-between;
+        }
+
+        li {
+            width: 48%;
+            margin: 0;
+        }
+    }
 }
