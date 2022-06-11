@@ -287,7 +287,7 @@ header h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 1.75rem;
-  background-color: #9200FF;
+  background-color: #3D0369;
   display: inline-block;
   padding: 10px 40px;
 }
@@ -449,6 +449,21 @@ header h2 {
     margin: 15px 0 40px;
   }
 }
+.ticketIcons {
+  background-color: #3D0369;
+}
+.ticketIcons .ticketDetailIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.ticketIcons .ticketIconsImg {
+  width: 50px;
+  height: 50px;
+}
+
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
@@ -457,6 +472,7 @@ header h2 {
 
 h1,
 h2,
+h4,
 ul,
 li,
 p {

@@ -3,6 +3,7 @@
 @import './partials/header';
 @import './partials/about';
 @import './partials/ticketInfo';
+@import './partials/ticketIcons';
 
 // BASE STYLES
 .wrapper {
@@ -13,6 +14,7 @@
 
 h1,
 h2,
+h4,
 ul,
 li,
 p {
@@ -36,7 +38,7 @@ button {
     font-weight: normal;
     line-height: 29px;
     color: #fff;
-    background-color: #9200FF;
+    background-color: $vividPurple;
     text-transform: uppercase;
     padding: 10px 20px;
     border-style: none;
