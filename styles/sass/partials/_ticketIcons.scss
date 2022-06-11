@@ -24,7 +24,7 @@
     h3 {
         font-family: $fontMontserrat;
         font-size: 1.5rem;
-        font-weight: normal;
+        font-weight: bold;
         text-transform: uppercase;
         color: #FFF;
     }
@@ -35,7 +35,18 @@
 
         .ticketDetailIcons {
             flex-direction: column;
+            min-height: 810px;
+            justify-content: center;
+        }
+
+        .ticketIconsImg {
+            margin:15px;
         }
         
+        .ticketIconsImg img {
+            width: 75px;
+            height: 75px;
+            margin: 0 auto 15px;
+        }
     }
 }
