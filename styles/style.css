@@ -346,9 +346,6 @@ header h2 {
 .about .descriptionContainer button {
   margin: 5% 0;
 }
-.about .descriptionContainer button:hover {
-  background-color: #af47ff;
-}
 
 @media (max-width: 755px) {
   .about {
@@ -555,6 +552,123 @@ header h2 {
     margin: 0;
   }
 }
+footer .contactUs {
+  background-color: #3D0369;
+  height: 70vh;
+}
+footer .contactUs nav {
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+footer .contactUs nav ul {
+  list-style: none;
+}
+footer .contactUs nav li {
+  display: inline-block;
+  margin: 30px 13px;
+}
+footer .contactUs nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  font-family: "Montserrat", sans-serif;
+}
+footer .contactUs .contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .contactUs h2 {
+  font-family: "Iceberg", cursive;
+  font-weight: normal;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+}
+footer .contactUs P {
+  font-family: "Montserrat", sans-serif;
+  line-height: 29px;
+}
+footer .contactUs .contactInput {
+  width: 51%;
+}
+footer .contactUs .contactInput input {
+  width: 75%;
+  padding: 9px 30px 10px;
+  font-size: 1.25rem;
+  line-height: 29px;
+  font-weight: normal;
+  margin-right: -5px;
+  border: none;
+}
+footer .contactUs .contactInput p {
+  margin-bottom: 10px;
+}
+footer .bottom {
+  background-color: #0F0632;
+}
+footer .bottom p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  line-height: 29px;
+  padding: 15px 0;
+}
+
+@media (max-width: 1383px) {
+  footer input {
+    text-align: center;
+  }
+  footer button {
+    width: 75%;
+  }
+}
+@media (max-width: 755px) {
+  footer .contactUs {
+    height: 85vh;
+  }
+  footer .contactUs ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer .contactUs li {
+    margin: 30px 0;
+  }
+  footer .contactUs .contactContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  footer .contactUs .contactContainer .contactDetails,
+footer .contactUs .contactContainer .contactInput {
+    width: 100%;
+  }
+  footer .contactUs .contactContainer .contactDetails {
+    margin-bottom: 50px;
+  }
+  footer .contactUs .contactContainer .contactInput input {
+    margin: 0 0 10px;
+    width: 100%;
+  }
+  footer .contactUs .contactContainer .contactInput button {
+    width: 100%;
+  }
+  footer .contactUs .contactContainer .contactInput p {
+    margin-bottom: 25px;
+  }
+}
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
@@ -566,7 +680,8 @@ h2,
 h4,
 ul,
 li,
-p {
+p,
+input {
   margin: 0;
   padding: 0;
 }
@@ -591,4 +706,8 @@ button {
   text-transform: uppercase;
   padding: 10px 20px;
   border-style: none;
+}
+
+button:hover {
+  background-color: #af47ff;
 }

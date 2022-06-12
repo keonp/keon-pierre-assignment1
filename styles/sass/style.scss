@@ -5,6 +5,7 @@
 @import './partials/ticketInfo';
 @import './partials/ticketIcons';
 @import './partials/socialMedia';
+@import './partials/footer';
 
 // BASE STYLES
 .wrapper {
@@ -18,7 +19,8 @@ h2,
 h4,
 ul,
 li,
-p {
+p,
+input {
     margin: 0;
     padding: 0;
 }
@@ -43,4 +45,8 @@ button {
     text-transform: uppercase;
     padding: 10px 20px;
     border-style: none;
+}
+
+button:hover {
+    background-color: #af47ff;
 }

@@ -1,0 +1,132 @@
+footer {
+    .contactUs {
+        background-color: $royalPurple;
+        height: 70vh;
+
+        nav {
+            text-align: center;
+
+            padding-top: 40px;
+            margin-bottom: 40px;
+            ul {
+                list-style: none;
+            }
+            li {
+                display: inline-block;
+                margin: 30px 13px;
+    
+            }
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: inherit;
+                font-family: $fontMontserrat;
+            }
+        }
+
+        .contactContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h2 {
+            font-family: $fontIceberg;
+            font-weight: normal;
+            font-size: 2.6rem;
+            text-transform: uppercase;
+        }
+
+        P {
+            font-family: $fontMontserrat;
+            line-height: 29px;
+        }
+
+        .contactInput {
+            width: 51%;
+            input {
+                width: 75%;
+                padding: 9px 30px 10px;
+                font-size: 1.25rem;
+                line-height: 29px;
+                font-weight: normal;
+                margin-right: -5px;
+                border: none;
+            }
+
+            p {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .bottom {
+        background-color: $darkIndigo;
+
+        p {
+            font-family: $fontMontserrat;
+            text-align: center;
+            font-weight: bold;
+            line-height: 29px;
+            padding: 15px 0;
+        }
+    }
+}
+
+@media (max-width: 1383px) {
+    footer {
+        input {
+            text-align: center;
+        }
+
+        button{
+            width: 75%;
+        } 
+    }
+}
+
+@media (max-width: 755px) {
+    footer {
+        .contactUs{
+            height: 85vh;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            li {
+                margin: 30px 0;
+            }
+
+            .contactContainer {
+                flex-direction: column;
+                text-align: center;
+
+                .contactDetails,
+                .contactInput {
+                    width: 100%;
+                }
+
+                .contactDetails {
+                    margin-bottom: 50px;
+                }
+
+                .contactInput {
+                    input {
+                        margin: 0 0 10px;
+                        width: 100%
+                    }
+
+                    button {
+                        width: 100%;
+                    }
+
+                    p {
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
