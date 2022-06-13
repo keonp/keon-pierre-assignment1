@@ -14,13 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header>
+    <header id="home"> <!-- HEADER -->
         <div class="wrapper">
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#socialMedia">Blog</a></li>
                     <li><a href="#contactUs">Contact</a></li>
                 </ul>
             </nav>
@@ -31,25 +31,25 @@
                 </div>
                 <div class="iconContainer">
                     <div class="socialMediaIcons ig">
-                        <a href="#"><img src="./assets/instagram-brands.svg" alt=""></a>
+                        <a href="#"><img src="./assets/instagram-brands.svg" alt="Instagram icon"></a>
                     </div>
                     <div class="socialMediaIcons fb">
-                        <a href="#"><img src="./assets/facebook-f-brands.svg" alt=""></a>
+                        <a href="#"><img src="./assets/facebook-f-brands.svg" alt="Facebook icon"></a>
                     </div>
                     <div class="socialMediaIcons snap">
-                        <a href="#"><img src="./assets/snapchat-brands.svg" alt=""></a>
+                        <a href="#"><img src="./assets/snapchat-brands.svg" alt="Snapchat icon"></a>
                     </div>
                     <div class="socialMediaIcons twitter">
-                        <a href="#"><img src="./assets/twitter-brands.svg" alt=""></a>
+                        <a href="#"><img src="./assets/twitter-brands.svg" alt="Twitter icon"></a>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </header><!-- END OF HEADER -->
 
-    <main>
+    <main><!-- MAIN -->
+        <!-- ABOUT SECTION -->
         <section id="about" class="about">
-
             <!-- row 1 -->
             <div class="aboutContainers">
                 <div class="descriptionContainer">
@@ -61,12 +61,12 @@
                 </div>
             </div>
             <div class="aboutContainers imgContainer">
-                <img src="./assets/image-2_2@2x.png" alt="">
+                <img src="./assets/image-2_2@2x.png" alt="Music artist singing into microphone">
             </div>
 
             <!-- row 2 -->
             <div class="aboutContainers imgContainer">
-                <img src="./assets/image-2-copy@2x.png" alt="">
+                <img src="./assets/image-2-copy@2x.png" alt="Close up image of a saxophone">
             </div>
             <div class="aboutContainers">
                 <div class="descriptionContainer">
@@ -78,12 +78,14 @@
                 </div>
             </div>
         </section>
+        <!-- END OF ABOUT SECTION -->
 
+        <!-- TICKET INFORMATION SECTION -->
         <section class="ticketInformation">
             <div class="wrapper">
                 <div class="ticketDetails">
                     <div class="imgContainer">
-                        <img src="./assets/image-6@2x.png" alt="">
+                        <img src="./assets/image-6@2x.png" alt="A concert from the crowd's point of view">
                     </div>
                     <div class="ticketDetailsContianer">
                         <h2>Get Your Tickets</h2>
@@ -95,66 +97,66 @@
                 </div>
             </div>
         </section>
+        <!-- END OF TICKET INFORMATION SECTION -->
 
+        <!-- TICKET ICONS SECTION -->
         <section class="ticketIcons">
-
             <div class="wrapper">
-
                 <div class="ticketDetailIcons">
-
                     <div class="ticketIconsImg">
                         <a href="#">
-                            <img src="./assets/location-arrow-solid.svg" alt="">
+                            <img src="./assets/location-arrow-solid.svg" alt="location arrow icon">
                             <h3>Locations</h3>
                         </a>
                     </div>
-
                     <div class="ticketIconsImg">
                         <a href="#">
-                            <img src="./assets/ticket-solid.svg" alt="">
+                            <img src="./assets/ticket-solid.svg" alt="ticket icon">
                             <h3>Tickets</h3>
                         </a>
                     </div>
-
                     <div class="ticketIconsImg">
                         <a href="#">
-                            <img src="./assets/phone-flip-solid.svg" alt="">
+                            <img src="./assets/phone-flip-solid.svg" alt="telephone icon">
                             <h3>Reach Out</h3>
                         </a>
                     </div>
-
                 </div>
             </div>
         </section>
+        <!-- END OF TICKET ICON SECTION -->
 
-        <section class="socialMedia">
+        <!-- SOCIAL MEDIA SECTION -->
+        <section id="socialMedia" class="socialMedia">
             <div class="wrapper">
                 <div class="socialMediaContainer">
                     <h2>The Gram</h2>
                     <ul class="gallery">
                         <li>
-                            <img src="./assets/image-2@2x.png" alt="">
+                            <img src="./assets/image-2@2x.png" alt="Concert stadium with a stage and a full crowd">
                         </li>
                         <li>
-                            <img src="./assets/gallery-image-2@2x.png" alt="">
+                            <img src="./assets/gallery-image-2@2x.png" alt="Band on stage enveloped in smoke">
                         </li>
                         <li>
-                            <img src="./assets/gallery-image-3@2x.png" alt="">
+                            <img src="./assets/gallery-image-3@2x.png" alt="A plat of chicken wings garnished with sesame seeds, a cup of sauce, and vegetables">
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
-    </main>
+        <!-- END OF SOCIAL MEDIA SECTION -->
+    </main><!-- END OF MAIN -->
 
-    <footer>
+    <footer><!-- FOOTER -->
+        <!-- CONTACT US SECTION -->
         <section id="contactUs" class="contactUs">
             <div class="wrapper">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#socialMedia">Blog</a></li>
                         <li><a href="#contactUs">Contact</a></li>
                     </ul>
                 </nav>
@@ -172,17 +174,19 @@
                         <p>Subscribe to our newsletter to stay updated.</p>
 
                         <form action="#">
-                            <input type="text" placeholder="email address">
+                            <input type="email" id="email" for="email" placeholder="email address">
                             <button type="submit">Subsribe</button>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- END OF CONTACT US SECTION -->
 
+        <!-- BOTTOM OF THE FOOTER -->
         <div class="bottom">
             <p>Copyright &copy; 2022 Juno College</p>
         </div>
-    </footer>
+    </footer><!-- END OF FOOTER -->
 </body>
 </html>
