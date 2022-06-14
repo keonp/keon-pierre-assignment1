@@ -44,21 +44,15 @@ header {
     }
 
     h1 {
-        font-family: $fontIceberg;
-        text-transform: uppercase;
+        @include heading1();
         margin-bottom: 10px;
-        font-weight: normal;
-        font-size: 4rem;
-        line-height: 80px;
-
+        
         span {
             display: block;
         }
     }
-    h2 {
-        font-family: $fontMontserrat;
-        font-weight: normal;
-        font-size: 1.75rem;
+    h3 {
+        @include heading3;
         background-color: $royalPurple;
         display: inline-block;
         padding: 10px 40px;

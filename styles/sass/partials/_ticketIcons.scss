@@ -21,11 +21,8 @@
         display: block;
     }
 
-    h3 {
-        font-family: $fontMontserrat;
-        font-size: 1.5rem;
-        font-weight: bold;
-        text-transform: uppercase;
+    h4 {
+        @include heading4;
         color: #FFF;
     }
 }

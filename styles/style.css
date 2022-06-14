@@ -274,16 +274,16 @@ header .socialMediaIcons {
 }
 header h1 {
   font-family: "Iceberg", cursive;
-  text-transform: uppercase;
-  margin-bottom: 10px;
   font-weight: normal;
   font-size: 4rem;
   line-height: 80px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 header h1 span {
   display: block;
 }
-header h2 {
+header h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 1.75rem;
@@ -334,26 +334,19 @@ header h2 {
 }
 .about .descriptionContainer h2 {
   font-family: "Iceberg", cursive;
-  text-transform: uppercase;
-  font-size: 2.6rem;
   font-weight: normal;
+  font-size: 2.6rem;
+  text-transform: uppercase;
 }
 .about .descriptionContainer p {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
   line-height: 29px;
 }
-.about .descriptionContainer button {
+.about .descriptionContainer .button {
   margin: 5% 0;
 }
 
 @media (max-width: 755px) {
-  .about {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
   .about .aboutContainers {
     width: 100%;
     -webkit-box-orient: vertical;
@@ -410,15 +403,15 @@ header h2 {
 }
 .ticketInformation .ticketDetailsContianer h2 {
   font-family: "Iceberg", cursive;
-  text-transform: uppercase;
-  font-size: 2.6rem;
   font-weight: normal;
+  font-size: 2.6rem;
+  text-transform: uppercase;
 }
 .ticketInformation .ticketDetailsContianer p {
   font-family: "Montserrat", sans-serif;
   line-height: 29px;
 }
-.ticketInformation .ticketDetailsContianer button {
+.ticketInformation .ticketDetailsContianer .button {
   margin: 2% 0;
 }
 
@@ -472,10 +465,10 @@ header h2 {
   text-decoration: none;
   display: block;
 }
-.ticketIcons h3 {
+.ticketIcons h4 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
   font-weight: bold;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: #FFF;
 }
@@ -518,8 +511,8 @@ header h2 {
 }
 .socialMedia h2 {
   font-family: "Iceberg", cursive;
-  font-size: 2.6rem;
   font-weight: normal;
+  font-size: 2.6rem;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 60px;
@@ -615,9 +608,9 @@ footer .bottom {
 }
 footer .bottom p {
   font-family: "Montserrat", sans-serif;
+  line-height: 29px;
   text-align: center;
   font-weight: bold;
-  line-height: 29px;
   padding: 15px 0;
 }
 
@@ -677,6 +670,7 @@ footer .contactUs .contactContainer .contactInput {
 
 h1,
 h2,
+h3,
 h4,
 ul,
 li,
@@ -696,7 +690,7 @@ img {
   display: block;
 }
 
-button {
+.button {
   font-family: "Iceberg", cursive;
   font-size: 1.25rem;
   font-weight: normal;
@@ -706,8 +700,10 @@ button {
   text-transform: uppercase;
   padding: 10px 20px;
   border-style: none;
+  text-decoration: none;
+  display: inline-block;
 }
 
-button:hover {
+.button:hover {
   background-color: #af47ff;
 }

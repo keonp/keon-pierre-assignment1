@@ -16,6 +16,7 @@
 
 h1,
 h2,
+h3,
 h4,
 ul,
 li,
@@ -35,7 +36,7 @@ img {
     display: block;
 }
 
-button {
+.button {
     font-family: $fontIceberg;
     font-size: 1.25rem;
     font-weight: normal;
@@ -45,8 +46,10 @@ button {
     text-transform: uppercase;
     padding: 10px 20px;
     border-style: none;
+    text-decoration: none;
+    display: inline-block;
 }
 
-button:hover {
+.button:hover {
     background-color: #af47ff;
 }

@@ -1,6 +1,43 @@
+// Fonts
 $fontIceberg: 'Iceberg', cursive;
 $fontMontserrat: 'Montserrat', sans-serif;
+
+// Colours
 $vividPurple: #9200FF;
 $royalPurple: #3D0369;
 $darkIndigo: #0F0632;
 $almostBlack: #08080B;
+
+//Text styling
+@mixin heading1 {
+    font-family: $fontIceberg;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+@mixin heading2 {
+    font-family: $fontIceberg;
+    font-weight: normal;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+}
+
+@mixin heading3 {
+    font-family: $fontMontserrat;
+    font-weight: normal;
+    font-size: 1.75rem;
+}
+
+@mixin heading4 {
+    font-family: $fontMontserrat;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+@mixin paragraph {
+    font-family: $fontMontserrat;
+    line-height: 29px;
+}

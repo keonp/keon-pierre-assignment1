@@ -31,15 +31,11 @@ footer {
         }
 
         h2 {
-            font-family: $fontIceberg;
-            font-weight: normal;
-            font-size: 2.6rem;
-            text-transform: uppercase;
+            @include heading2;
         }
 
         P {
-            font-family: $fontMontserrat;
-            line-height: 29px;
+            @include paragraph;
         }
 
         .contactInput {
@@ -64,10 +60,9 @@ footer {
         background-color: $darkIndigo;
 
         p {
-            font-family: $fontMontserrat;
+            @include paragraph;
             text-align: center;
             font-weight: bold;
-            line-height: 29px;
             padding: 15px 0;
         }
     }
